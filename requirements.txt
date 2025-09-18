@@ -16,7 +16,4 @@ soundfile
 # Utilities
 langdetect
 numpy
-
-# Optional: for better performance
-# nvidia-cublas-cu12  # for GPU acceleration
-# nvidia-cudnn-cu12   # for GPU acceleration
+python-dotenv

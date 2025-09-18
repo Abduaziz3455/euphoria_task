@@ -12,6 +12,8 @@ from transformers import WhisperProcessor, WhisperForConditionalGeneration
 from pyannote.audio import Pipeline
 import librosa
 from pydub import AudioSegment
+from dotenv import load_dotenv
+load_dotenv()
 
 
 class YouTubeAudioProcessor:
